@@ -27,7 +27,7 @@ To securely connect to your DigitalOcean Droplet, you first need to generate an 
 
 3. When prompted, either leave the passphrase blank or enter one for additional security.
 
-    ![sshkey](.\images\sshkey.png)
+    ![sshkey](./images/sshkey.png)
 
 4. Find your **public key** at `C:\Users\your-user-name\.ssh\yourkeyname.pub`. Open this file, copy its contents, and save it for later.
 
@@ -46,7 +46,7 @@ Before creating the Droplet, you need to upload a custom Arch Linux image on Dig
 
 4. Click **Upload Image** and follow the prompts.
 
-    ![uploadimage](.\images\uploadimage.png)
+    ![uploadimage](./images/uploadimage.png)
 
 ---
 

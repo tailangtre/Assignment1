@@ -232,3 +232,13 @@ Now that `doctl` is configured, use it to create a new Droplet:
 ## **Conclusion**
 
 By following these steps, you’ve successfully created and managed an Arch Linux Droplet on DigitalOcean, using both the web console and `doctl`. You’ve also automated the initial setup with a `cloud-init` configuration file for secure and efficient server management.
+
+## **Resources**
+
+DigitalOcean. (n.d.). doctl: DigitalOcean command-line client reference. DigitalOcean Documentation. Retrieved September 25, 2024, from https://docs.digitalocean.com/reference/doctl/
+
+The Arch Linux Team. (2024). Installation guide. ArchWiki. Retrieved September 25, 2024, from https://wiki.archlinux.org/title/installation_guide
+
+SSH Communications Security. (n.d.). SSH keys: The definitive guide. SSH Academy. Retrieved September 25, 2024, from https://www.ssh.com/academy/ssh-keys
+
+cloud-init. (n.d.). cloud-init documentation. Read the Docs. Retrieved September 25, 2024, from https://cloudinit.readthedocs.io/en/latest/index.html

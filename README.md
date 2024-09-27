@@ -27,7 +27,7 @@ To securely connect to your DigitalOcean Droplet, you first need to generate an 
 
 3. When prompted, either leave the passphrase blank or enter one for additional security.
 
-    ![sshkey](./images/sshkey.png)
+    ![sshkey](./assets/sshkey.png)
 
 4. Find your **public key** at `C:\Users\your-user-name\.ssh\yourkeyname.pub`. Open this file, copy its contents, and save it for later.
 
@@ -46,7 +46,7 @@ Before creating the Droplet, you need to upload a custom Arch Linux image on Dig
 
 4. Click **Upload Image** and follow the prompts.
 
-    ![uploadimage](./images/uploadimage.png)
+    ![uploadimage](./assets/uploadimage.png)
 
 ---
 
@@ -107,7 +107,7 @@ Once the Arch Linux image and cloud-init file are ready, follow these steps to c
 
 8. Click **Create Droplet**.
 
-    ![dropletcreation](./images/dropletcreation.png)
+    ![dropletcreation](./assets/dropletcreation.png)
 
 ---
 
@@ -160,7 +160,7 @@ Next, you'll set up `doctl`—DigitalOcean's command-line tool—to manage your 
 
    You’ll need to generate a DigitalOcean API token from the DigitalOcean control panel. Copy the token and paste it when prompted.
 
-    ![doctlauth](./images/doctlauth.png)
+    ![doctlauth](./assets/doctlauth.png)
 
 4. Verify `doctl` is working:
 
@@ -202,7 +202,7 @@ Now that `doctl` is configured, use it to create a new Droplet:
     ```
     Copy and save it for next step
 
-    ![archandsshid](./images/archandsshid.png)
+    ![archandsshid](./assets/archandsshid.png)
 
 3. Use the following command to create a new Droplet with your Arch Linux image and the `cloud-init` file:
 
@@ -223,7 +223,7 @@ Now that `doctl` is configured, use it to create a new Droplet:
    - SSH Keys: Use your previously created SSH key ID.
    - User Data File: Points to your cloud-init file to automate server setup
 
-    ![newdroplet](./images/newdroplet.png)
+    ![newdroplet](./assets/newdroplet.png)
 
 4. After creation, you can connect to this new Droplet using the same SSH method as before.
 
